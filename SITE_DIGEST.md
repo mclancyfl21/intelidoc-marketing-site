@@ -13,6 +13,8 @@
 2.  **"The MCP Advantage":** Position MCP (Model Context Protocol) support as a future-proof feature that lets their existing AI tools (Claude/Gemini) work directly with their secure documents.
 3.  **"API-First Architecture":** Convince developers and CTOs with the robustness of the API for custom enterprise integrations.
 4.  **"Security by Design":** Highlight the on-prem/cloud options and data sovereignty.
+5.  **"Two-Stage Semantic Pipeline":** Our proprietary retrieval-rerank engine ensures pinpoint accuracy by performing deep contextual analysis on every query.
+6.  **"Verified Grounding Architecture":** A mathematical guarantee of truth, ensuring every AI response is strictly anchored to your source data to eliminate hallucinations.
 
 ## 4. Page Structure (High-Conversion Flow)
 1.  **Hero Section:** High-impact visual (AI document visualization), aggressive CTA ("Get Started Today").

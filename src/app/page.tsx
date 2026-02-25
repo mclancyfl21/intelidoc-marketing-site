@@ -13,7 +13,7 @@ export default function LandingPage() {
             </div>
             <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
               <a href="#features" className="hover:text-white transition-colors">Features</a>
-              <a href="#mcp" className="hover:text-white transition-colors">MCP \u0026 API</a>
+              <a href="#mcp" className="hover:text-white transition-colors">MCP & API</a>
               <a href="#pricing" className="hover:text-white transition-colors">Pricing</a>
               <button className="bg-indigo-600 hover:bg-indigo-500 text-white px-5 py-2 rounded-full transition-all shadow-lg shadow-indigo-600/20">
                 Buy Now
@@ -57,7 +57,7 @@ export default function LandingPage() {
             <p className="text-slate-400">Eliminate AI hallucinations with grounded, verifiable intelligence.</p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <FeatureCard 
               title="Filtered Vector Search" 
               desc="Pinpoint semantic accuracy across millions of documents with intelligent metadata filtering."
@@ -73,24 +73,34 @@ export default function LandingPage() {
               desc="Seamless ingestion of PDF, DOCX, and TXT with real-time vectorization status."
               icon="⚡"
             />
+            <FeatureCard 
+              title="Two-Stage Semantic Pipeline" 
+              desc="Advanced retrieval-rerank technology that ensures pinpoint accuracy for complex enterprise queries."
+              icon="🔄"
+            />
+            <FeatureCard 
+              title="Verified Grounding Architecture" 
+              desc="A system-wide guarantee that every AI claim is mathematically anchored to your source data."
+              icon="⚖️"
+            />
           </div>
         </div>
       </section>
 
-      {/* MCP \u0026 API Section */}
+      {/* MCP & API Section */}
       <section id="mcp" className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-3xl lg:text-4xl font-bold mb-6">Built for Developers \u0026 Enterprise</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6">Built for Developers & Enterprise</h2>
               <div className="space-y-8">
                 <div>
                   <h3 className="text-xl font-semibold text-indigo-400 mb-2">MCP Support</h3>
-                  <p className="text-slate-400">The Model Context Protocol allows Claude, Gemini, and other AI models to connect directly to your intelliDocs hub as a secure context provider.</p>
+                  <p className="text-slate-400">The Model Context Protocol allows Claude, Gemini, and other AI models to connect directly to your intelliDocs hub as a secure context provider. Every model request is enhanced by our **Two-Stage Semantic Pipeline** for superior context retrieval.</p>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-violet-400 mb-2">Robust API</h3>
-                  <p className="text-slate-400">Integrate our RAG engine into your custom applications with our developer-first REST API and webhook system.</p>
+                  <p className="text-slate-400">Integrate our RAG engine into your custom applications with our developer-first REST API and webhook system. Leverage our **Verified Grounding Architecture** to ensure your custom apps deliver high-fidelity, hallucination-free responses.</p>
                 </div>
               </div>
             </div>
@@ -132,7 +142,7 @@ const result = await mcp.query({
       </section>
 
       <footer className="py-12 border-t border-white/5 text-center text-slate-500 text-sm">
-        \u00a9 2026 intelliDocs. All rights reserved. Currently running on idlp.agentic-sw.com
+        © 2026 intelliDocs. All rights reserved. Currently running on idlp.agentic-sw.com
       </footer>
     </div>
   );
